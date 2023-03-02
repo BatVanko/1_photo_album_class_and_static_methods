@@ -12,3 +12,32 @@ and if we have 2 empty pages:
 -----------
 
 -----------
+
+Test Code
+
+album = PhotoAlbum(2)
+
+print(album.add_photo("baby"))
+print(album.add_photo("first grade"))
+print(album.add_photo("eight grade"))
+print(album.add_photo("party with friends"))
+print(album.photos)
+print(album.add_photo("prom"))
+print(album.add_photo("wedding"))
+
+print(album.display())
+
+Output
+
+baby photo added successfully on page 1 slot 1
+first grade photo added successfully on page 1 slot 2
+eight grade photo added successfully on page 1 slot 3
+party with friends photo added successfully on page 1 slot 4
+[['baby', 'first grade', 'eight grade', 'party with friends'], []]
+prom photo added successfully on page 2 slot 1
+wedding photo added successfully on page 2 slot 2
+-----------
+[] [] [] []
+-----------
+[] []
+-----------
