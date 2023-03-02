@@ -1,0 +1,1 @@
+# 1_photo_album_class_and_static_methods
